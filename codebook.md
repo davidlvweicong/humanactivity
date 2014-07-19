@@ -1,208 +1,274 @@
 CodeBook of Tidy Data
 =====================
 
-time / freq: time / frequency domain signals
-body / gravity: body / gravity signals
-acc / gyro: accelerometer / gyroscope
-jerk: jerk signals
-mag: magnitude of three-dimensional signals calculated using the Euclidean norm 
-mean / std: mean value / standard deviation
-x / y / z: 3-axial raw signals
+* time / freq: time / frequency domain signals
+* body / gravity: body / gravity signals
+* acc / gyro: accelerometer / gyroscope
+* jerk: jerk signals
+* mag: magnitude of three-dimensional signals calculated using the Euclidean norm 
+* mean / std: mean value / standard deviation
+* x / y / z: 3-axial raw signals
 
-### timebodyaccmeanx: numeric
+#### timebodyaccmeanx
+numeric
 mean of x of the body time domain signals from the accelerometer
 
-### timebodyaccmeany: numeric
+#### timebodyaccmeany
+numeric
 mean of y of the body time domain signals from the accelerometer
 
-### timebodyaccmeanz: numeric
+#### timebodyaccmeanz
+numeric
 mean of z of the body time domain signals from the accelerometer
 
-### timebodyaccstdx: numeric
+#### timebodyaccstdx
+numeric
 standard deviation of x of the body time domain signals from the accelerometer
 
-### timebodyaccstdy: numeric
+#### timebodyaccstdy
+numeric
 standard deviation of y of the body time domain signals from the accelerometer
 
-### timebodyaccstdz: numeric
+#### timebodyaccstdz
+numeric
 standard deviation of z of the body time domain signals from the accelerometer
 
-### timegravityaccmeanx: numeric
+#### timegravityaccmeanx
+numeric
 mean of x of the gravity time domain signals from the accelerometer
 
-### timegravityaccmeany: numeric
+#### timegravityaccmeany
+numeric
 mean of y of the gravity time domain signals from the accelerometer
 
-### timegravityaccmeanz: numeric
+#### timegravityaccmeanz
+numeric
 mean of z of the gravity time domain signals from the accelerometer
 
-### timegravityaccstdx: numeric
+#### timegravityaccstdx
+numeric
 standard deviation of x of the gravity time domain signals from the accelerometer
 
-### timegravityaccstdy: numeric
+#### timegravityaccstdy
+numeric
 standard deviation of y of the gravity time domain signals from the accelerometer
 
-### timegravityaccstdz: numeric
+#### timegravityaccstdz
+numeric
 standard deviation of z of the gravity time domain signals from the accelerometer
 
-### timebodyaccjerkmeanx: numeric
+#### timebodyaccjerkmeanx
+numeric
 mean of x of the body time domain jerk signals from the accelerometer
 
-### timebodyaccjerkmeany: numeric
+#### timebodyaccjerkmeany
+numeric
 mean of y of the body time domain jerk signals from the accelerometer
 
-### timebodyaccjerkmeanz: numeric
+#### timebodyaccjerkmeanz
+numeric
 mean of z of the body time domain jerk signals from the accelerometer
 
-### timebodyaccjerkstdx: numeric
+#### timebodyaccjerkstdx
+numeric
 standard deviation of x of the body time domain jerk signals from the accelerometer
 
-### timebodyaccjerkstdy: numeric
+#### timebodyaccjerkstdy
+numeric
 standard deviation of y of the body time domain jerk signals from the accelerometer
 
-### timebodyaccjerkstdz: numeric
+#### timebodyaccjerkstdz
+numeric
 standard deviation of z of the body time domain jerk signals from the accelerometer
 
-### timebodygyromeanx: numeric
+#### timebodygyromeanx
+numeric
 mean of x of the body time domain signals from the gyroscope
 
-### timebodygyromeany: numeric
+#### timebodygyromeany
+numeric
 mean of y of the body time domain signals from the gyroscope
 
-### timebodygyromeanz: numeric
+#### timebodygyromeanz
+numeric
 mean of z of the body time domain signals from the gyroscope
 
-### timebodygyrostdx: numeric
+#### timebodygyrostdx
+numeric
 standard deviation of x of the body time domain signals from the gyroscope
 
-### timebodygyrostdy: numeric
+#### timebodygyrostdy
+numeric
 standard deviation of y of the body time domain signals from the gyroscope
 
-### timebodygyrostdz: numeric
+#### timebodygyrostdz
+numeric
 standard deviation of z of the body time domain signals from the gyroscope
 
-### timebodygyrojerkmeanx: numeric
+#### timebodygyrojerkmeanx
+numeric
 mean of x of the body time domain jerk signals from the gyroscope
 
-### timebodygyrojerkmeany: numeric
+#### timebodygyrojerkmeany
+numeric
 mean of y of the body time domain jerk signals from the gyroscope
 
-### timebodygyrojerkmeanz: numeric
+#### timebodygyrojerkmeanz
+numeric
 mean of z of the body time domain jerk signals from the gyroscope
 
-### timebodygyrojerkstdx: numeric
+#### timebodygyrojerkstdx
+numeric
 standard deviation of x of the body time domain jerk signals from the gyroscope
 
-### timebodygyrojerkstdy: numeric
+#### timebodygyrojerkstdy
+numeric
 standard deviation of y of the body time domain jerk signals from the gyroscope
 
-### timebodygyrojerkstdz: numeric
+#### timebodygyrojerkstdz
+numeric
 standard deviation of z of the body time domain jerk signals from the gyroscope
 
-### timebodyaccmagmean: numeric
+#### timebodyaccmagmean
+numeric
 mean of magnitude of the body time domain signals from the accelerometer
 
-### timebodyaccmagstd: numeric
+#### timebodyaccmagstd
+numeric
 standard deviation of magnitude of the body time domain signals from the accelerometer
 
-### timegravityaccmagmean: numeric
+#### timegravityaccmagmean
+numeric
 mean of magnitude of the gravity time domain signals from the accelerometer
 
-### timegravityaccmagstd: numeric
+#### timegravityaccmagstd
+numeric
 standard deviation of magnitude of the gravity time domain signals from the accelerometer
 
-### timebodyaccjerkmagmean: numeric
+#### timebodyaccjerkmagmean
+numeric
 mean of magnitude of the body time domain jerk signals from the accelerometer
 
-### timebodyaccjerkmagstd: numeric
+#### timebodyaccjerkmagstd
+numeric
 standard deviation of magnitude of the body time domain jerk signals from the accelerometer
 
-### timebodygyromagmean: numeric
+#### timebodygyromagmean
+numeric
 mean of magnitude of the body time domain signals from the gyroscope
 
-### timebodygyromagstd: numeric
+#### timebodygyromagstd
+numeric
 standard deviation of magnitude of the body time domain signals from the gyroscope
 
-### timebodygyrojerkmagmean: numeric
+#### timebodygyrojerkmagmean
+numeric
 mean of magnitude of the body time domain jerk signals from the gyroscope
 
-### timebodygyrojerkmagstd: numeric
+#### timebodygyrojerkmagstd
+numeric
 standard deviation of magnitude of the body time domain jerk signals from the gyroscope
 
-### freqbodyaccmeanx: numeric
+#### freqbodyaccmeanx
+numeric
 mean of x of the body frequency domain signals from the accelerometer
 
-### freqbodyaccmeany: numeric
+#### freqbodyaccmeany
+numeric
 mean of y of the body frequency domain signals from the accelerometer
 
-### freqbodyaccmeanz: numeric
+#### freqbodyaccmeanz
+numeric
 mean of z of the body frequency domain signals from the accelerometer
 
-### freqbodyaccstdx: numeric
+#### freqbodyaccstdx
+numeric
 standard deviation of x of the body frequency domain signals from the accelerometer
 
-### freqbodyaccstdy: numeric
+#### freqbodyaccstdy
+numeric
 standard deviation of y of the body frequency domain signals from the accelerometer
 
-### freqbodyaccstdz: numeric
+#### freqbodyaccstdz
+numeric
 standard deviation of z of the body frequency domain signals from the accelerometer
 
-### freqbodyaccjerkmeanx: numeric
+#### freqbodyaccjerkmeanx
+numeric
 mean of x of the body frequency domain jerk signals from the accelerometer
 
-### freqbodyaccjerkmeany: numeric
+#### freqbodyaccjerkmeany
+numeric
 mean of y of the body frequency domain jerk signals from the accelerometer
 
-### freqbodyaccjerkmeanz: numeric
+#### freqbodyaccjerkmeanz
+numeric
 mean of z of the body frequency domain jerk signals from the accelerometer
 
-### freqbodyaccjerkstdx: numeric
+#### freqbodyaccjerkstdx
+numeric
 standard deviation of x of the body frequency domain jerk signals from the accelerometer
 
-### freqbodyaccjerkstdy: numeric
+#### freqbodyaccjerkstdy
+numeric
 standard deviation of y of the body frequency domain jerk signals from the accelerometer
 
-### freqbodyaccjerkstdz: numeric
+#### freqbodyaccjerkstdz
+numeric
 standard deviation of z of the body frequency domain jerk signals from the accelerometer
 
-### freqbodygyromeanx: numeric
+#### freqbodygyromeanx
+numeric
 mean of x of the body frequency domain signals from the gyroscope
 
-### freqbodygyromeany: numeric
+#### freqbodygyromeany
+numeric
 mean of y of the body frequency domain signals from the gyroscope
 
-### freqbodygyromeanz: numeric
+#### freqbodygyromeanz
+numeric
 mean of z of the body frequency domain signals from the gyroscope
 
-### freqbodygyrostdx: numeric
+#### freqbodygyrostdx
+numeric
 standard deviation of x of the body frequency domain signals from the gyroscope
 
-### freqbodygyrostdy: numeric
+#### freqbodygyrostdy
+numeric
 standard deviation of y of the body frequency domain signals from the gyroscope
 
-### freqbodygyrostdz: numeric
+#### freqbodygyrostdz
+numeric
 standard deviation of z of the body frequency domain signals from the gyroscope
 
-### freqbodyaccmagmean: numeric
+#### freqbodyaccmagmean
+numeric
 mean of magnitude of the body frequency domain signals from the accelerometer
 
-### freqbodyaccmagstd: numeric
+#### freqbodyaccmagstd
+numeric
 standard deviation of magnitude of the body frequency domain signals from the accelerometer
 
-### freqbodyaccjerkmagmean: numeric
+#### freqbodyaccjerkmagmean
+numeric
 mean of magnitude of the body frequency domain jerk signals from the accelerometer
 
-### freqbodyaccjerkmagstd: numeric
+#### freqbodyaccjerkmagstd
+numeric
 standard deviation of magnitude of the body frequency domain jerk signals from the accelerometer
 
-### freqbodygyromagmean: numeric
+#### freqbodygyromagmean
+numeric
 mean of magnitude of the body frequency domain signals from the gyroscope
 
-### freqbodygyromagstd: numeric
+#### freqbodygyromagstd
+numeric
 standard deviation of magnitude of the body frequency domain signals from the gyroscope
 
-### freqbodygyrojerkmagmean: numeric
+#### freqbodygyrojerkmagmean
+numeric
 mean of magnitude of the body frequency domain jerk signals from the gyroscope
 
-### freqbodygyrojerkmagstd: numeric
+#### freqbodygyrojerkmagstd
+numeric
 standard deviation of magnitude of the body frequency domain jerk signals from the gyroscope
